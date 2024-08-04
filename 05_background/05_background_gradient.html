@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Gradient</title>
+    <style>
+        div{
+            width: 600px;
+            height: 800px;
+            background-color: red;
+            background: linear-gradient(red,yellow,orange);
+            background: linear-gradient(cyan,lightgreen,yellow);
+
+            background: linear-gradient(to right,cyan,lightgreen,yellow);
+            background: linear-gradient(to left,cyan,lightgreen,yellow);
+            background: linear-gradient(to top,cyan,lightgreen,yellow);
+            background: linear-gradient(to bottom,cyan,lightgreen,rgb(95, 16, 16));
+            
+            background: linear-gradient(to bottom right,cyan,lightgreen,yellow);
+            background: linear-gradient(to bottom left,cyan,lightgreen,yellow);
+            background: linear-gradient(to top left,cyan,lightgreen,yellow);
+            background: linear-gradient(to top right,cyan,lightgreen,yellow);
+
+            background: linear-gradient(45deg,teal,lightgreen);
+            background: linear-gradient(-45deg,teal,lightgreen);
+
+            background: repeating-linear-gradient(#EA2027,#1B1464 10%,#009432 20%);
+            background: repeating-linear-gradient(to right,#EA2027,#1B1464 10%,#009432 20%);
+
+            background: radial-gradient(red,yellow);
+            background: radial-gradient(red,yellow,green);
+            background: radial-gradient(red 5%,yellow 25%,green 60%);
+            background: radial-gradient(circle,red 5%,yellow 25%,green 60%);
+
+            background: radial-gradient(closest-side at 50% 50%,red 5%,yellow 25%,green 60%);
+            background: radial-gradient(closest-side at 80% 50%,red 5%,yellow 25%,green 60%);
+            background: radial-gradient(closest-side at 80% 80%,red 5%,yellow 25%,green 60%);
+            
+            background: radial-gradient(farthest-side at 80% 20%,red,yellow ,green);
+            background: radial-gradient(closest-corner at 10% 10%,red,yellow ,green);
+            background: radial-gradient(farthest-corner at 10% 10%,red,yellow ,green);
+
+            background: repeating-radial-gradient(red,yellow 10%,green 15%);
+
+            background: conic-gradient(red,yellow,green);
+            border-radius: 50%;
+            background: conic-gradient(from 45deg,red,yellow,green);
+
+            background: conic-gradient(red 0deg,red 90deg,yellow 90deg,
+            yellow 180deg,green 180deg,green 270deg,blue 270deg,blue 360deg);
+
+            background: conic-gradient(at 60% 45%,red,yellow,green);
+
+            background: repeating-conic-gradient(red 10%,yellow 20%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Gradient</h1>
+    <div>
+
+    </div>
+</body>
+</html>
+
+<!--
+    linear gradient
+    repeating linear gradient
+    radial gradient
+    repeating radial gradient
+    conic gradient
+    repeating conic gradient
+    
+-->
